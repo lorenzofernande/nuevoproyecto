@@ -1,0 +1,233 @@
+@media screen and (max-width: 1400px){
+header{
+    background-color: map-get( $header, bg )
+    
+}
+.navbar-Modificado{
+    text-decoration: none;
+    font-size: 51px;
+    color: orange;
+    font-weight: bold;
+}
+.navBar-Cacmbiado{
+   flex-direction: row;
+  
+}
+.link-Nuevo{
+    padding: 20px;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Rubik',sans-serif;
+}
+
+.subtitulo{
+    margin: 0px -298px 0px 0px;
+    padding: 105px 0px 199px 69px;
+    color: white;
+    font-weight:bolder;
+    font-size: 50px;
+}
+.cajita{
+    
+    width: 154px;
+   
+    top: 277px;
+    left: 441px;
+}
+.moto{
+    width: 70%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+h1 {
+    padding: 10px;
+    width: 432px;
+    top: 242px;
+    left: 6px;
+    font-family: 'Rubik','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cd{
+    
+    margin-top: 40px;
+    padding-top: 40px;
+    
+
+}
+.simplificamos{
+    background-color: white;
+    background-image: none;
+}
+.animacion{
+    display: flex;
+    justify-content: center;
+    flex-direction:row-reverse;
+  
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+
+    
+footer{
+    background-color: #B784F6;
+    height: 100px;
+}
+.fb .inst { 
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+}
+
+@media screen and (max-width: 992px){
+    header{
+        background-color: map-get( $header, bg )
+        
+    }
+    .navbar-Modificado{
+        text-decoration: none;
+        font-size: 51px;
+        color: orange;
+        font-weight: bold;
+    }
+    .navBar-Cacmbiado{
+       flex-direction: row;
+      
+    }
+    .link-Nuevo{
+        padding: 20px;
+        font-size: 20px;
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Rubik',sans-serif;
+    }
+    
+    .subtitulo{
+        
+        
+        margin: 10px -377px 0px 0px;
+        padding: 88px 160px 176px 7px;
+        color: red;
+        font-weight:bolder;
+        font-size: 37px;
+    }
+    .cajita{
+        width: 154px;
+        top: 277px;
+        left: 441px;
+    }
+    .moto{
+        width: 70%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    h1 {
+        padding: 10px;
+        width: 432px;
+        top: 242px;
+        left: 6px;
+        font-family: 'Rubik','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .cd{
+        
+        margin-top: 40px;
+        padding-top: 40px;
+        
+    
+    }
+    .simplificamos{
+        background-color: white;
+        background-image: none;
+    }
+    .animacion{
+        display: flex;
+        justify-content: center;
+        flex-direction:row-reverse;
+      
+        background-color: #7f5a83;
+        background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    }
+    
+        
+    footer{
+        background-color: #B784F6;
+        height: 100px;
+    }
+    .fb .inst { 
+        background-color: red;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    header{
+        background-color: map-get( $header, bg )
+        
+    }
+    .navbar-Modificado{
+        text-decoration: none;
+        font-size: 51px;
+        color: orange;
+        font-weight: bold;
+    }
+    .navBar-Cacmbiado{
+       flex-direction: row;
+      
+    }
+    .link-Nuevo{
+        padding: 20px;
+        font-size: 20px;
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Rubik',sans-serif;
+    }
+    
+    .subtitulo{
+        color: white;
+        font-weight:bolder;
+        font-size: 38px;
+    }
+    .cajita{
+        
+        padding: 3px;
+        width: 176px;
+        position: absolute;
+        top: 306px;
+        left: 476px;
+    }
+    
+    
+    .simplificamos{
+        background-color: white;
+        background-image: none;
+    }
+    .animacion{
+        display: flex;
+        flex-direction: column;
+        background-color: #7f5a83;
+        background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    }
+    .moto{
+        
+        height: 400px;
+        width: 400px;
+    }
+    footer{
+        background-color: #B784F6;
+        height: 100px;
+    }
+    .fb .inst { 
+        background-color: red;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+    }
+}
+
+

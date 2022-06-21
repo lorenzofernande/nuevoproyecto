@@ -1,50 +1,127 @@
-#barraDesktop main {
-  background-color: brown;
+* {
+  margin: 0;
+  padding: 0;
 }
-#barraDesktop h2 {
+
+html {
+  font-size: 62.5%;
+}
+
+.fa-whatsapp {
+  color: green;
+  font-size: 60px;
+  position: fixed;
+  right: 0%;
+  bottom: 0%;
+}
+
+.redes {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-facebook-f {
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+.fa-instagram {
+  margin-top: 10px;
+}
+
+.derechos {
+  background-color: rgb(52, 18, 52);
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 24px;
+}
+
+main {
+  background-color: white;
+}
+
+h2 {
   font-family: "Rubik", sans-serif;
   text-align: center;
-  font-size: 37px;
+  font-size: 50px;
   padding: 50px;
-  border: 6px;
   color: orange;
 }
-#barraDesktop .texto {
+
+.textoUno {
+  color: #6b6a6a;
+  font-family: "Rubik", sans-serif;
+  font-size: 23px;
+  line-height: 28px;
+  font-style: normal;
+  text-transform: none;
+  text-align: center;
+}
+
+.texto {
   color: #6b6a6a;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-style: normal;
-  font-weight: 300;
-  letter-spacing: -0.5px;
   text-transform: none;
   text-align: center;
 }
-#barraDesktop .wpb_wrapper {
+
+.wpb_wrapper {
   display: flex;
+  justify-content: center;
   flex-direction: row-reverse;
-  font-family: "Rubik", sans-serif;
 }
-#barraDesktop .rapido {
+
+.rapido {
   font-family: "Rubik", sans-serif;
   text-align: center;
   font-size: 44px;
-  margin: 135px 80px;
-  padding: 0px;
-  border: 6px;
+  padding: 90px 160px 97px 2px;
   color: #7f5a83;
 }
-#barraDesktop .mensajero {
+
+.mensajero {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 400px;
   vertical-align: middle;
+  padding: 0px 0px 0px 130px;
 }
 
 @media screen and (max-width: 992px) {
-  #barraTablets main {
+  main {
     background-color: white;
+  }
+  .wpb_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    font-family: "Rubik", sans-serif;
+  }
+  .rapido {
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik", sans-serif;
+    text-align: center;
+    font-size: 44px;
+    margin: 48px 140px;
+    border: 6px;
+    color: #7f5a83;
+  }
+  .mensajero {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  main {
+    background-color: gold;
   }
   .wpb_wrapper {
     display: flex;
@@ -64,79 +141,6 @@
     display: none;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-#grilla {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 6% 37% 29% 23%;
-  grid-template-areas: "header header header header" "nav nav nav nav" "main main main main" "aside aside aside section" "pie pie pie pie";
-}
-
-header {
-  grid-area: header;
-  background-color: black;
-}
-
-.navbar-Modificado {
-  text-decoration: none;
-  font-size: 51px;
-  color: orange;
-  font-weight: bold;
-}
-
-.navBar-Cacmbiado {
-  flex-direction: row;
-}
-
-.link-Nuevo {
-  padding: 20px;
-  font-size: 20px;
-  color: red;
-  text-decoration: none;
-  font-weight: bold;
-  font-family: "Rubik", sans-serif;
-}
-
-.subtitulo {
-  color: white;
-  font-weight: bolder;
-  font-size: 60px;
-}
-
-h1 {
-  margin-left: 13px;
-  padding: 154px;
-  width: 380px;
-  height: 0;
-  position: absolute;
-  top: 0;
-  left: 38px;
-  font-family: "Rubik", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.simplificamos {
-  background-color: white;
-  background-image: none;
-}
-
-.animacion {
-  background-color: #7f5a83;
-  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-  grid-area: nav;
-}
-
-img {
-  padding: 0px 0px 0px 300px;
-}
-
 section {
   background-color: #432534;
   vertical-align: middle;
@@ -200,18 +204,205 @@ aside {
   font-family: "Rubik", sans-serif;
 }
 
-footer {
-  background-color: #B784F6;
-  height: 200px;
-  grid-area: pie;
+@media screen and (max-width: 1400px) {
+  header {
+    background-color: #231326;
+  }
+  .navbar-Modificado {
+    text-decoration: none;
+    font-size: 51px;
+    color: orange;
+    font-weight: bold;
+  }
+  .navBar-Cacmbiado {
+    flex-direction: row;
+  }
+  .link-Nuevo {
+    padding: 20px;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+  }
+  .subtitulo {
+    margin: 0px -298px 0px 0px;
+    padding: 105px 0px 199px 69px;
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+  }
+  .cajita {
+    width: 154px;
+    top: 277px;
+    left: 441px;
+  }
+  .moto {
+    width: 70%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  h1 {
+    padding: 10px;
+    width: 432px;
+    top: 242px;
+    left: 6px;
+    font-family: "Rubik", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .cd {
+    margin-top: 40px;
+    padding-top: 40px;
+  }
+  .simplificamos {
+    background-color: white;
+    background-image: none;
+  }
+  .animacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  }
+  footer {
+    background-color: #B784F6;
+    height: 100px;
+  }
+  .fb .inst {
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
 }
-
-i {
-  color: green;
-  font-size: 80px;
-  position: fixed;
-  right: 0%;
-  bottom: 0%;
+@media screen and (max-width: 992px) {
+  header {
+    background-color: #231326;
+  }
+  .navbar-Modificado {
+    text-decoration: none;
+    font-size: 51px;
+    color: orange;
+    font-weight: bold;
+  }
+  .navBar-Cacmbiado {
+    flex-direction: row;
+  }
+  .link-Nuevo {
+    padding: 20px;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+  }
+  .subtitulo {
+    margin: 10px -377px 0px 0px;
+    padding: 88px 160px 176px 7px;
+    color: red;
+    font-weight: bolder;
+    font-size: 37px;
+  }
+  .cajita {
+    width: 154px;
+    top: 277px;
+    left: 441px;
+  }
+  .moto {
+    width: 70%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+  }
+  h1 {
+    padding: 10px;
+    width: 432px;
+    top: 242px;
+    left: 6px;
+    font-family: "Rubik", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .cd {
+    margin-top: 40px;
+    padding-top: 40px;
+  }
+  .simplificamos {
+    background-color: white;
+    background-image: none;
+  }
+  .animacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  }
+  footer {
+    background-color: #B784F6;
+    height: 100px;
+  }
+  .fb .inst {
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  header {
+    background-color: #231326;
+  }
+  .navbar-Modificado {
+    text-decoration: none;
+    font-size: 51px;
+    color: orange;
+    font-weight: bold;
+  }
+  .navBar-Cacmbiado {
+    flex-direction: row;
+  }
+  .link-Nuevo {
+    padding: 20px;
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+  }
+  .subtitulo {
+    color: white;
+    font-weight: bolder;
+    font-size: 38px;
+  }
+  .cajita {
+    padding: 3px;
+    width: 176px;
+    position: absolute;
+    top: 306px;
+    left: 476px;
+  }
+  .simplificamos {
+    background-color: white;
+    background-image: none;
+  }
+  .animacion {
+    display: flex;
+    flex-direction: column;
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  }
+  .moto {
+    height: 400px;
+    width: 400px;
+  }
+  footer {
+    background-color: #B784F6;
+    height: 100px;
+  }
+  .fb .inst {
+    background-color: red;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
