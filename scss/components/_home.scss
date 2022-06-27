@@ -1,8 +1,17 @@
-@media screen and (max-width: 1400px){
+
 header{
-    background-color: map-get( $header, bg )
-    
+    background-color: map-get( $header, bg )   
 }
+.divHeader{
+    margin: 0px 17px 0px 17px;
+}
+A {    
+    color: white;
+}
+
+a:hover{
+    color:orange;
+    text-decoration: none;}
 .navbar-Modificado{
     text-decoration: none;
     font-size: 51px;
@@ -22,70 +31,101 @@ header{
     font-family: 'Rubik',sans-serif;
 }
 
+
+.divTo{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/slide-background.jpg);
+    background-size: cover;
+}
+.animacion{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.iconDiv{
+    padding: 30px 0;
+}
+.enviostodo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.to{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+.fa-solid{
+    padding: 6px;
+    color: #ff9f1f;
+}
+
 .subtitulo{
-    margin: 0px -298px 0px 0px;
-    padding: 105px 0px 199px 69px;
     color: white;
     font-weight:bolder;
     font-size: 50px;
 }
-.cajita{
-    
-    width: 154px;
-   
-    top: 277px;
-    left: 441px;
-}
 .moto{
-    width: 70%;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    width: 61%;  
 }
 h1 {
-    padding: 10px;
     width: 432px;
-    top: 242px;
-    left: 6px;
     font-family: 'Rubik','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .cd{
-    
     margin-top: 40px;
     padding-top: 40px;
-    
-
 }
 .simplificamos{
     background-color: white;
     background-image: none;
 }
-.animacion{
+
+
+
+.footerImg{
+    background-image: url(/img/footer-background.jpg);
+    background-size: cover;
+}
+.delFooter{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    flex-direction:row-reverse;
-  
-    background-color: #7f5a83;
-    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+.imgFooter{
+    width: 20%;
+    margin: 17px;
+}
+h3{
+    font-family: 'Rubik',sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+.numerito{
+    font-size: 6rem;
+    font-weight: bold;
+    color: #ff9f1f;
 }
 
-    
-footer{
-    background-color: #B784F6;
-    height: 100px;
-}
-.fb .inst { 
-    background-color: red;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-}
-}
 
-@media screen and (max-width: 992px){
+
+@media screen and (max-width: 768px){
     header{
-        background-color: map-get( $header, bg )
-        
+        background-color: map-get( $header, bg )   
     }
+    .divHeader{
+        margin: 0px 17px 0px 17px;
+    }
+    A {    
+        color: white;
+    }
+    
+    a:hover{
+        color:orange;
+        text-decoration: none;}
     .navbar-Modificado{
         text-decoration: none;
         font-size: 51px;
@@ -104,129 +144,99 @@ footer{
         font-weight: bold;
         font-family: 'Rubik',sans-serif;
     }
+    .iconDiv{
+        
+        padding: 0px 0px 85px 0px;
+    }
+    .enviostodo{
+        padding: 0px 36px 0px 166px;
+    }
+    .to{
+        display: flex;
+        font-size: 1rem;
+        color: white;
+        font-family: "Rubik", sans-serif;
+    }
+    .fa-solid{
+        padding: 6px;
+        color: #ff9f1f;
+    }
     
     .subtitulo{
-        
-        
-        margin: 10px -377px 0px 0px;
-        padding: 88px 160px 176px 7px;
-        color: red;
+        padding: 0px 36px 0px 166px;
+        color: white;
         font-weight:bolder;
-        font-size: 37px;
+        font-size: 28px;
     }
-    .cajita{
-        width: 154px;
-        top: 277px;
-        left: 441px;
-    }
-    .moto{
-        width: 70%;
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0px;
-    }
+     
+    
     h1 {
-        padding: 10px;
         width: 432px;
-        top: 242px;
-        left: 6px;
         font-family: 'Rubik','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .cd{
-        
         margin-top: 40px;
         padding-top: 40px;
-        
-    
     }
     .simplificamos{
         background-color: white;
         background-image: none;
     }
+    
+    
+    .divTo{
+        width: 100%;
+        height: 100%;
+        background-image: url(/img/slide-background.jpg);
+        background-size: cover;
+    }
     .animacion{
         display: flex;
-        justify-content: center;
-        flex-direction:row-reverse;
-      
-        background-color: #7f5a83;
-        background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: flex-end;
     }
     
-        
     footer{
-        background-color: #B784F6;
-        height: 100px;
+        height: 381px;
     }
-    .fb .inst { 
-        background-color: red;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
+    h3{
+        font-size: 3rem;
+    }
+    .numerito{
+        font-size: 4rem;
     }
 }
 
 @media screen and (max-width: 480px){
-    header{
-        background-color: map-get( $header, bg )
-        
-    }
-    .navbar-Modificado{
-        text-decoration: none;
-        font-size: 51px;
-        color: orange;
-        font-weight: bold;
-    }
-    .navBar-Cacmbiado{
-       flex-direction: row;
-      
-    }
-    .link-Nuevo{
-        padding: 20px;
-        font-size: 20px;
-        color: red;
-        text-decoration: none;
-        font-weight: bold;
-        font-family: 'Rubik',sans-serif;
-    }
-    
-    .subtitulo{
-        color: white;
-        font-weight:bolder;
-        font-size: 38px;
-    }
-    .cajita{
-        
-        padding: 3px;
-        width: 176px;
-        position: absolute;
-        top: 306px;
-        left: 476px;
-    }
-    
-    
-    .simplificamos{
-        background-color: white;
-        background-image: none;
+    .enviostodo{
+        display: none;
     }
     .animacion{
         display: flex;
         flex-direction: column;
-        background-color: #7f5a83;
-        background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+        align-items: center;
     }
-    .moto{
-        
-        height: 400px;
-        width: 400px;
+    .iconDiv{
+        padding: 0;
     }
-    footer{
-        background-color: #B784F6;
-        height: 100px;
+    .subtitulo{
+        padding: 0px 128px 0px 132px;
+        font-size: 2rem;
     }
-    .fb .inst { 
-        background-color: red;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
+    .moto {
+        width: 85%;
+    }
+    .fa-whatsapp {
+        font-size: 52px;
+        right: 8%;
+        bottom: 1%;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .numerito {
+        font-size: 3rem;
     }
 }
 
