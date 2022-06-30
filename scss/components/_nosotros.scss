@@ -4,7 +4,7 @@ section{
     
     vertical-align: middle;
     
-    grid-area: section;
+    
 }
 
 form{
@@ -20,11 +20,6 @@ input{
     font-size: 43%;
 }
 
-aside{
-    
-    
-    grid-area: aside;
-}
 .cajas{
     display: flex;
     flex-direction: row;

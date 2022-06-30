@@ -82,29 +82,33 @@ html {
 }
 
 main {
+  width: 100%;
   background-color: white;
+}
+
+.mainto {
+  background-size: cover;
+  background-image: url(/img/testimonials-background.jpg);
 }
 
 h2 {
   font-family: "Rubik", sans-serif;
   text-align: center;
   font-size: 50px;
-  padding: 50px;
-  color: orange;
+  padding-top: 40px;
+  color: #e0af49;
 }
 
 .textoUno {
-  color: #6b6a6a;
+  color: wheat;
   font-family: "Rubik", sans-serif;
   font-size: 23px;
   line-height: 28px;
-  font-style: normal;
-  text-transform: none;
   text-align: center;
 }
 
 .texto {
-  color: #6b6a6a;
+  color: wheat;
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   line-height: 28px;
@@ -117,14 +121,15 @@ h2 {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
+  align-items: center;
 }
 
 .rapido {
+  color: white;
   font-family: "Rubik", sans-serif;
-  text-align: center;
-  font-size: 44px;
-  padding: 90px 160px 97px 2px;
-  color: #7f5a83;
+  font-size: 43px;
+  line-height: 50px;
+  letter-spacing: -1.5px;
 }
 
 .mensajero {
@@ -133,7 +138,51 @@ h2 {
   align-items: center;
   height: 400px;
   vertical-align: middle;
-  padding: 0px 0px 0px 130px;
+}
+
+.tyu {
+  width: 100%;
+  border: double;
+  background-color: #563f4f;
+}
+
+.cuad {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.cuad2 {
+  text-align: center;
+  border: outset;
+  margin: 50px 50px 50px 50px;
+}
+
+.cuad3 {
+  margin: inherit;
+  margin-bottom: 2.35em;
+}
+
+h4 {
+  font-family: "Rubik", sans-serif;
+  font-size: 26px;
+  margin-bottom: 0.35em;
+  text-align: center;
+  color: #45303f;
+}
+
+.cuad4 {
+  text-align: center;
+  font-size: 16px;
+}
+
+.cuad4-1 {
+  text-align: center;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 992px) {
@@ -185,7 +234,6 @@ h2 {
 section {
   background-color: #432534;
   vertical-align: middle;
-  grid-area: section;
 }
 
 form {
@@ -198,10 +246,6 @@ form {
 
 input {
   font-size: 43%;
-}
-
-aside {
-  grid-area: aside;
 }
 
 .cajas {
