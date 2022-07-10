@@ -1,0 +1,94 @@
+.sectiontari{
+    background-color: #f8f9fa;
+}
+.sectiontariuno{
+    display: table-cell;
+    @media (max-width: 768px){
+        display: flex;
+        align-items: baseline;
+
+    }
+}
+.sectiontaridos{
+    text-align: left;
+    font-size: 50px;
+    font-weight: 500;
+    color: #45303f;
+    @media (max-width: 768px){
+        font-size: 35px;
+        padding: 32px;
+    }
+    @media (max-width: 425px){
+        font-size: 30px;
+        padding: 30px 9px 30px 7px;
+    }
+}
+.sectiontaritres{
+    font-size: 16px;
+    padding: 25px 0px;
+    border-bottom: 1px solid rgb(215, 221, 226);
+    @media (max-width: 768px){
+        font-size: 14px;
+    }
+}
+.tarifauno{
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+        justify-content: space-around;
+        .tarifados{
+            margin-bottom: 50px;
+            background-color: #FFFFFF;
+            border-radius: 6px;
+            box-shadow: 0 5px 20px 0 rgb(96 100 112 / 10%);
+            width: 520px;
+            .tarifatres{
+                background-color:#563f4f;
+                border-radius: 6px 6px 0 0;
+                padding: 15px 25px;
+                .tarifatres-uno{
+                    float: left;
+                }
+                h5{
+                    color: white;
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 800;
+                    line-height: 22px;
+                }
+            }
+            .tarifacuatro{
+                padding: 25px 0px;
+                border-bottom: 1px solid #D7DDE2;
+            }
+            .tarifacinco{
+                padding: 15px 0px;
+                ul{
+                    li{
+                        list-style: none;
+                        margin-top: 15px;
+                        h6{
+                            padding: 20px;
+                            font-size: 16px;
+                            text-align: center;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+
+        }
+        .tarifaseis{
+            margin: auto;
+            margin-bottom: 30px;
+            h5{
+                text-align: center;
+                color: #45303f;
+                font-size: 11px;
+            }
+        }
+}

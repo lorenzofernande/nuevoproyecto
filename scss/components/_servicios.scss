@@ -1,88 +1,134 @@
-
 main{
-    width: 100%;
-    background-color: white;
-}
-
-.mainto{
-    background-size: cover;
     background-image: url(/img/testimonials-background.jpg);
+    background-size: cover;
+    background-position: center
 }
-
-    h2{
-    font-family: 'Rubik',sans-serif;
+.maintodos{
+    
+    padding-top: 50px;
     text-align: center;
-    font-size: 50px;
-    padding-top: 40px;
-    color: #e0af49;
-    }
-    .textoUno{
-            color: wheat;
+    .maintocuatro{
+        padding-left: 15px;
+        padding-right: 15px;
+        h2{
+            font-weight: 550;
+            font-size: 43px;
+            line-height: 50px;
+            letter-spacing: -1.5px;
             font-family: 'Rubik',sans-serif;
-            font-size: 23px;
-            line-height: 28px;
-            text-align: center;
-    }
-        .texto{
-            color: wheat;
-            font-family: 'Rubik',sans-serif;
-            font-size: 18px;
-            line-height: 28px;
-            font-style: normal;
-            text-transform: none;
-            text-align: center;
+            text-align: center; 
+            color: #e0af49;
+            @media (max-width: 768px){
+                font-size: 40px;
+            }
         }
-
-            .wpb_wrapper{
+        .line-main{
+            margin-top: 12px;
+            margin-bottom: 12px;
+            background-color: #ff9f1f;
+            height: 5px;
+            width: 50px;
+            margin-left: 50%;
+            @media (max-width: 768px){
+                margin-left: 45%;
+            }
+        }
+        .textoUno{
+            font-family: 'Rubik', sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 550;
+            letter-spacing: -0.5px;
+            color: wheat;
+            text-align: center;
+            @media (max-width: 768px){
+                font-size: 17px;
+            }
+        }
+        .texto{
+            font-family: 'Rubik', sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 550;
+            letter-spacing: -0.5px;
+            color: wheat;
+            text-align: center;
+            @media (max-width: 768px){
+                font-size: 17px;
+            }
+        }
+    }
+}
+.maintoocho{
+            display: flex;
+            justify-content: center;
+            flex-direction: row-reverse;
+            align-items: center;
+            @media (max-width: 768px){
                 display: flex;
                 justify-content: center;
-                flex-direction: row-reverse;
+                flex-direction: column;
                 align-items: center;
             }
-               
-
-                .rapido{
-                    color: white;
-                    font-family: 'Rubik', sans-serif;
-                    font-size: 43px;
-                    line-height: 50px;
-                    letter-spacing: -1.5px;
-                }
-                    
-                        
-                    
-                    .mensajero{
-                        display:flex;
-                        justify-content: center;
-                        align-items: center;
-                        height: 400px;
-                        vertical-align: middle;
+            .maintonueve{
+                 margin-left: 37px;
+                 @media (max-width: 768px){
+                    margin-left: 0px;
+                 }
+                .mensajero{
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 400px;
+                    vertical-align: middle;
                     }
+            }
+            .rapido{
+                color: wheat;
+                font-family: 'Rubik', sans-serif;
+                font-size: 43px;
+                line-height: 50px;
+                letter-spacing: -1.5px;
+                
+            }
+            .line-div{
+                margin-top: 12px;
+                margin-bottom: 12px;
+                background-color: #ff9f1f;
+                height: 5px;
+                width: 100px;
+            }
+}
 
 .tyu{
-    width: 100%;
-    border: double;
+    
     background-color: #563f4f;
 }
 
 .cuad{
-    background-color: white;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    @media (max-width: 990px){
+        flex-direction: column;
+    }
 }
 .cuad2{
+    
+    box-shadow: 3px 4px 10px 0px rgb(74 42 62 / 10%);
+    margin: 34px;
     text-align: center;
     border: outset;
-    margin: 50px 50px 50px 50px;
+    background-color: white;
+    .cuad2-1{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 }
 
 .cuad3{
     margin: inherit;
     margin-bottom: 2.35em;
+    padding-top: 77px;
 }
 h4{
     font-family: 'Rubik', sans-serif;
@@ -93,74 +139,22 @@ h4{
 }
 
 .cuad4{
+    padding-left: 45px;
+    padding-right: 45px;
     text-align: center;
     font-size: 16px;
+    padding-bottom: 100px;
 }
 .cuad4-1{
     text-align: center;
-    
     font-size: 16px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 65px;
 }
 
 
-                    @media screen and (max-width: 992px){
-                        
-                        main{
-                            background-color: white;
-                        }
-                            
-                            .wpb_wrapper{
-                            display: flex;
-                            justify-content: center;
-                            flex-direction:column-reverse;
-                            font-family: 'Rubik',sans-serif;
-                            }
-                           
-            
-                            .rapido{
-                                display: flex;
-                                justify-content: center;
-                                font-family: 'Rubik',sans-serif;
-                                text-align: center;
-                                font-size: 44px;
-                                margin: 48px 140px;
-                                border: 6px;
-                                color:  #7f5a83;
-                            }
-                                
-                                .mensajero{
-                                    display: none;
-                                }
-                            }
-                               
-                    @media screen and (max-width: 480px){
-                        main{
-                            background-color: gold;
-                        }
-                            
-                            .wpb_wrapper{
-                            display: flex;
-                            flex-direction:column-reverse;
-                            font-family: 'Rubik',sans-serif;
-                            }
-                           
-            
-                            .rapido{
-                                font-family: 'Rubik',sans-serif;
-                                text-align: center;
-                                font-size: 44px;
-                                margin: 135px 80px;
-                                padding: 0px;
-                                border: 6px;
-                                color:  #7f5a83;
-                            }
-                                
-                                .mensajero{
-
-                                    display:none
-            
-                                }
-                            }
+                    
 
                     
                 

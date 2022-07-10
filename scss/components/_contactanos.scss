@@ -1,0 +1,99 @@
+.pon1{
+    width: 90%;
+    .pon1-1{
+        margin-top: 5%;
+        font-weight: 500;
+        text-align: center;
+        padding-left: 10%;
+        .pon1-3{
+            padding-bottom: 1%;
+            background-color: #ff9f1f;
+            .pon2-1{
+                font-family: 'Rubik', sans-serif;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 300;
+                @media (max-width:768px){
+                    font-size: 15px;
+                }
+                @media (max-width:425px){
+                    font-size: 14px;
+                }
+            }
+            .pon2{
+                font-weight: 700;
+                font-size: 5.5rem;
+                color: white;
+                @media (max-width:768px){
+                    font-size: 5rem;
+                }
+                @media (max-width:425px){
+                    font-size: 4rem;
+                }
+            }
+            .pon3{
+                color: white;
+            }
+        }
+    }
+    
+}
+
+.contactanos{
+    background-image: url(/img/background-top.jpg);
+    background-size: 100% 100%;
+    margin: 0;
+    .contactanos2{
+        padding-top: 0.1px;
+        padding-bottom: 5%;
+        form{
+            margin-top: 5%;
+            width: 30%;
+            margin-left: 10%;
+            background: rgb(0,0,0,0.4);
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border-radius: 7px;
+
+            .contactanos4{
+                color:#fff;
+                text-align: center;
+                margin: 0;
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            input, textarea{
+                color: #fff;
+                background-color: #ffc1072b;
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 7px;
+                box-sizing: border-box;
+                font-size: 17px;
+                border: none;
+            } 
+            textarea{
+                min-height: 100px;
+                max-height: 200px;
+                max-width: 100%;
+            }
+            #boton{
+                background: rgb(255 159 31 / 52%);
+                color: #fff;
+                padding: 20px;
+            }
+            #boton:hover{
+                cursor: pointer;
+            }
+        }
+        @media (max-width:425px){
+            form{
+                width: 80%;
+            }
+        }
+    }
+}
+
+
+
+
