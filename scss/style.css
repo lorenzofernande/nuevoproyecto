@@ -776,7 +776,7 @@ h3 {
     background-image: none;
   }
   .footerImg {
-    background-image: url(/img/footer-background.jpg);
+    background-image: url(../img/footer-background.jpg);
     background-size: cover;
   }
   .delFooter {
